@@ -145,7 +145,7 @@ public class jobsTutByLocators {
         Assert.assertTrue(xpath_preceding1.isEnabled());
         WebElement xpath_preceding2 = driver.findElement(By.xpath("//div[@class='supernova-navi-item supernova-navi-item_lvl-2 supernova-navi-item_mobile supernova-navi-item_dashboard ']/preceding::a[2]"));
         Assert.assertTrue(xpath_preceding2.isEnabled());
-
+        driver.quit();
 
     }
 }
